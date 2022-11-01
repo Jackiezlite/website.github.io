@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>3verdays</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="~WSH ~Clement ~Bryan ~Leng Zjet ~Sam" />
+    <meta name="keywords" content="grocery,groceries,necesitties,everday,3verday,Everdays,snacks" />
+    <meta name="description" content="3verdays have everything you want , need & like ! " />
+    <link href="ShopNow.css" rel="stylesheet" />
+    <link href="Category.css" rel="stylesheet" />
+    <script src="main_script_src.js"></script>
+
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+
+        <div id="realhead">
+            <a href=" Cart.html"> <img id="logo" src="img/logo.png" alt="3verdays logo" title="Cart"
+                    style="width:10.6% ;"></a> <span id="productCount">0</span>
+            <a href="Help.html"><img id="help" src="img/help.png" alt="help?" style="width:4%" title="Help?"></a>
+            <a href="AboutUs.html">
+                <h1 id="h1" title=" About Us" ;>
+                    3verdays</h1>
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+
+
+
+    <div id="headerbar" style=" position: sticky; top: 0;">
+        <div class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn" style="text-decoration:none ;">Categories &nbsp; ⋁
+                <div class="dropdown-content">
+                    <a href="CannedGoods.html">CannedGoods</a>
+                    <a href="Snacks.html">Snacks</a>
+                    <a href="Drinks.html">Drinks</a>
+                    <a href="Rawfoods.html">RawFoods</a>
+                    <a href="Frozenfoods.html">FrozenFoods</a>
+                    <a href="Others.html">Others</a>
+                </div>
+            </a>
+        </div>
+
+
+        <div>
+            <a id="Favourite" href="Favourites.html">
+                <img src="img/favourite (2).png" alt="Favourites" title="Favourites" height="110px" width="113px" />
+            </a>
+
+        </div>
+
+
+        <div class="list"><a id="ShopNow" href="ShopNow.html" title="SHOP NOW">SHOP
+                NOW</a>
+        </div>
+
+
+
+        <!-- search bar right align -->
+
+        <div class="Search">
+            <input id="SearchInput" type="text" placeholder=" Search Products . . ." name="search" title="Search"
+                id="input" />
+
+
+
+
+            <button id="SearchButton">
+
+                <img src=" img/seacrch icon.png" alt="SearchIcon" title="Search" style="display: block;width: 100%;" />
+
+            </button>
+
+
+
+        </div>
+        <div>
+
+            <a id="Account" href="login.html"><img src="img/account icon (2).png" alt="Account" title="Account"
+                    height="98px" width="100px"></a>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <section>
+        <h1 class="category">Drinks</h1>
+        <div class="items">
+            <div class="item" data-name="D1" data-price="2.50" id="D1">
+                <img src="img/coca cola img+.png" alt="coca cola" title="Coco Cola 325ml" />
+                <p class="itemname">Coca Cola 325ml</p>
+                <p class="price">RM2.50</p>
+                <button onclick="addToCart()" class="AddCart" action="Cart.html" method="post">Add to Cart</button>
+            </div>
+
+            <div class="item" data-name="D2" data-price="5.50" id="D2">
+                <img src="img/red bull img.png" alt="red bull" title="Red Bull 355ml" />
+                <p class="itemname">Red Bull 355ml</p>
+                <p class="price">RM5.50</p>
+                <button onclick="addToCart()" class="AddCart" action="Cart.html" method="post">Add to Cart</button>
+            </div>
+
+            <div class="item" data-name="D3" data-price="2.10" id="D3">
+                <img src="img/mdew img.png" alt="mountian dew" title="Mountain Dew 400ml" />
+                <p class="itemname">Mountain Dew 400ml</p>
+                <p class="price">RM2.10</p>
+                <button onclick="addToCart()" class="AddCart" action="Cart.html" method="post">Add to Cart</button>
+            </div>
+
+            <div class="item" data-name="D4" data-price="8.50" id="D4">
+                <img src="img/apple cider img.png" alt="apple cider" title="Somersby Apple Cider 330ml" />
+                <p class="itemname">Somersby Apple Cider 330ml</p>
+                <p class="price">RM8.50</p>
+                <button class="AddCart" action="Cart.html" method="post">Add to Cart</button>
+            </div>
+
+            <div class="item" data-name="D5" data-price="3.00" id="D5">
+                <img src="img/heaven earth img.png" alt="heaven earth" width="100%"
+                    title="Heaven & Earth Ice Lemon Teo 500ml" />
+                <p class="itemname">Heaven & Earth Ice Lemon Teo 500ml</p>
+                <p class="price">RM3.00</p>
+                <button class="AddCart" action="Cart.html" method="post">Add to Cart</button>
+            </div>
+
+            <div class="item" data-name="D6" data-price="6.00" id="D6">
+                <img src="img/evian img.png" alt="Evian Spring Water" title="Evian Natural Spring Water 500ml" />
+                <p class="itemname">Evian Natural Spring Water 500ml</p>
+                <p class="price">RM6.00</p>
+                <button class="AddCart" action="Cart.html" method="post">Add to Cart</button>
+            </div>
+
+            <div class="item" data-name="D7" data-price="3.00" id="D7">
+                <img src="img/fanta img.png" alt="fanta" title="Fanta Orange 500ml" />
+                <p class="itemname">Fanta Orange 500ml</p>
+                <p class="price">RM3.00</p>
+                <button class="AddCart" action="Cart.html" method="post">Add to Cart</button>
+            </div>
+
+            <div class="item" data-name="D8" data-price="1.50" id="D8">
+                <img src="img/sprite img+.png" alt="sprite" width="100%" title="Sprite 325ml" />
+                <p class="itemname">Sprite 325ml</p>
+                <p class="price">RM1.50</p>
+                <button class="AddCart" action="Cart.html" method="post">Add to Cart</button>
+            </div>
+
+            <div class="item" data-name="D9" data-price="14.50" id="D9">
+                <img src="img/ribena img.png" alt="ribena" title="Ribena 1 litre" />
+                <p class="itemname">Ribena 1 litre</p>
+                <p class="price">RM14.50</p>
+                <button class="AddCart" action="Cart.html" method="post">Add to Cart</button>
+            </div>
+
+    </section>
+
+
+    <footer>
+        <h1>3verdays</h1>
+        <h2>Contact Us :</h2>
+        <hr>
+        <div>
+            <div>
+                <a href="tel:012-3456789"><img src="img/tel logo.png" alt="tel contact" width="6.75%"
+                        style="margin-top: 30px;margin-left: 200px;" title="012-3456789" /></a>
+
+            </div>
+            <div>
+                <a href="mailto:example@gmail.com"><img src="img/email logo.png" alt="email contact" width="6.03%"
+                        style="margin-top:-145px;float: left;margin-left: 690px;" title="example@gmail.com" /></a>
+            </div>
+            <div>
+                <a href="https://www.google.com/search?gs_ssp=eJzj4tLP1TfIyK1MKy5TYDRgdGDw4khLTE5Nys_PBgBmYAfL&q=facebook&rlz=1C1GCEU_enMY1018MY1018&oq=fa&aqs=chrome.3.69i60j69i57j69i59j46i131i199i433i465i512j46i131i433j0i131i433i512j69i60l2.3888j0j7&sourceid=chrome&ie=UTF-8"
+                    target="_blank"><img src="img/fb logo.png" alt="FB" width="12.33%"
+                        style="margin-top:-152px;float: left;margin-left: 1090px;" title="FB" /></a>
+            </div>
+            <div>
+                <a href="twitter.com/home" target="_blank"><img src="img/twitter logo.png" alt="twitter" width="6%"
+                        style="margin-top:-146px;float: left;margin-left: 1650px;" title="Twitter" /></a>
+            </div>
+
+
+        </div>
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>
